@@ -117,6 +117,9 @@ export class HaAuthFlow extends LitElement {
           display: block;
           margin-top: 16px;
         }
+        mwc-button {
+          --mdc-theme-primary: #b8b6b6 !important;
+        }
       </style>
       <form>${this._renderForm()}</form>
     `;
